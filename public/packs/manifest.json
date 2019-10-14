@@ -1,0 +1,14 @@
+{
+  "application.js": "/packs/js/application-61be334f2e160017feda.js",
+  "application.js.map": "/packs/js/application-61be334f2e160017feda.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-61be334f2e160017feda.js"
+      ],
+      "js.map": [
+        "/packs/js/application-61be334f2e160017feda.js.map"
+      ]
+    }
+  }
+}

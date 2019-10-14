@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PipelineTesting</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+<%= render 'layouts/topnav' %>
+<%= render 'layouts/messages' %>
+<!-- BEGIN Ansible Managed block (yield) -->
+<div class="container">
+      <%=yield%>
+</div>
+<%= yield :js%>
+<!-- END Ansible Managed block (yield) -->
+    <!--yield-->
+  </body>
+</html>
